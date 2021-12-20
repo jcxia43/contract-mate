@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Contract Mate",
+  "version": "1.0",
+
+  "description": "Adds a quick access to deth.net editor to view contracts via etherscan",
+
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png",
+    "256": "icons/logo-256.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://etherscan.io/address/*"],
+      "js": ["mate.js"]
+    }
+  ]
+
+}
