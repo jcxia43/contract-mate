@@ -13,9 +13,28 @@
 
   "content_scripts": [
     {
-      "matches": ["*://etherscan.io/address/*"],
+      "matches": [
+        "*://etherscan.io/address/*",
+        "*://ropsten.etherscan.io/address/*",
+        "*://rinkeby.etherscan.io/address/*",
+        "*://goerli.etherscan.io/address/*",
+        "*://kovan.etherscan.io/address/*",
+        "*://bscscan.com/address/*",
+        "*://testnet.bscscan.com/address/*",
+        "*://hecoinfo.com/address/*",
+        "*://testnet.hecoinfo.com/address/*",
+        "*://ftmscan.com/address/*",
+        "*://testnet.ftmscan.com/address/*",
+        "*://optimistic.etherscan.io/address/*",
+        "*://kovan-optimistic.etherscan.io/address/*",
+        "*://polygonscan.com/address/*",
+        "*://testnet.polygonscan.com/address/*",
+        "*://arbiscan.io/address/*",
+        "*://testnet.arbiscan.io/address/*",
+        "*://snowtrace.io/address/*",
+        "*://testnet.snowtrace.io/address/*"
+      ],
       "js": ["mate.js"]
     }
   ]
-
 }
