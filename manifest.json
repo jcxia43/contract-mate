@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Contract Mate",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Adds a quick access to deth.net editor to view contracts via etherscan",
 
