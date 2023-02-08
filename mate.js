@@ -6,4 +6,7 @@ link.className = "nav-link";
 link.target = "_blank";
 link.text = "View in VS Code";
 item.appendChild(link);
-document.querySelector("#contracts > div > #nav_subtabs").appendChild(item);
+document
+  .querySelector("#contracts")
+  .querySelector("#nav_subtabs")
+  .appendChild(item);
